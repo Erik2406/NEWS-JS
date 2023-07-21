@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="icon" href="./images/logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>New World</title>
+</head>
+
+<body>
+    <header>
+        <img src="./images/logo.jpg" width="100px" alt="">
+        <div class="searchbox top">
+            <form action="" id="searchform">
+                <input type="text" placeholder="Search....." id="searchinput">
+                <span><i class="fa solid fa-search"></i></span>
+            </form>
+        </div>
+        <nav class="top">
+            <ul>
+                <li onclick="Search('politic')">Politic</li>
+                <li onclick="Search('armenia')">Armenia</li>                
+                <li onclick="Search('usa')">USA</li>
+                <li onclick="Search('war')">WAR</li>
+                <li onclick="Search('business')">Business</li>
+            </ul>
+        </nav>
+        <div class="menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <!-- -----------------------------------------MOBILE VERSION----------------------------------------------------->
+        <div class="mobile hiden">
+            <nav>
+                <ul>
+                    <li onclick="Search('ipl2023')">IPL 2023</li>
+                    <li onclick="Search('tech')">Tech</li>
+                    <li onclick="Search('food')">Food</li>
+                    <li onclick="Search('movies')">Movies</li>
+                    <li onclick="Search('business')">Business</li>
+                </ul>
+            </nav>
+            <div class="searchbox">
+                <form action="" id="searchFormMobile" id="searchinputMobile">
+                    <input type="text" placeholder="Search.....">
+                    <span><i class="fa solid fa-search"></i></span>
+            </div>
+            </form>
+        </div>
+    </header>
+    <!-----------------------------------------------MAIN START----------------------------------------------- -->
+    <main>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
